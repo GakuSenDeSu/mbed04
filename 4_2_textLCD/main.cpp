@@ -16,4 +16,3 @@ int main()
             wait(1);
             x++;
       }
-}
