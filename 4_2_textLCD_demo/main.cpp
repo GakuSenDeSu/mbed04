@@ -12,8 +12,9 @@ int main()
       {
             led = !led;             // toggle led
             lcd.locate(5,1);
-            for (x==30; x<0; x--){
+            for (x=30; x<0; x--){
                 lcd.printf("%5i",x);    //conuter display
                 wait(1);
                 }
       }
+}
